@@ -1,0 +1,17 @@
+experiment,model,setting,PR-AUC,F1
+A features,Logistic Regression,without threshold features,0.84,0.723
+A features,Logistic Regression,with threshold features,0.838,0.725
+A features,Random Forest,without threshold features,0.776,0.704
+A features,Random Forest,with threshold features,0.848,0.747
+A features,XGBoost,without threshold features,0.822,0.72
+A features,XGBoost,with threshold features,0.844,0.728
+A features,LightGBM,without threshold features,0.835,0.736
+A features,LightGBM,with threshold features,0.845,0.729
+A features,CatBoost,without threshold features,0.828,0.732
+A features,CatBoost,with threshold features,0.846,0.746
+B horizon,Persistence rule,1 week(s) ahead,0.788,0.749
+B horizon,LightGBM,1 week(s) ahead,0.838,0.759
+B horizon,Persistence rule,2 week(s) ahead,0.768,0.733
+B horizon,LightGBM,2 week(s) ahead,0.82,0.775
+B horizon,Persistence rule,4 week(s) ahead,0.696,0.687
+B horizon,LightGBM,4 week(s) ahead,0.777,0.74

@@ -1,0 +1,12 @@
+feature,value,shap
+4 week avg vs threshold (log),0.24,0.2359
+Cases vs threshold (log),0.38,0.2328
+Cases this week,328.0,0.0588
+Cases 1 week ago,300.0,0.0422
+Cases 3 weeks ago,240.0,-0.0225
+Average last 4 weeks,286.75,0.0184
+Month,5.0,0.0144
+Week of year,19.0,-0.0095
+District,Colombo,-0.0084
+Change from last week,28.0,0.0073
+Cases 2 weeks ago,279.0,0.0017

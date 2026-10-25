@@ -1,0 +1,49 @@
+model,params,mean_test_f1,std_test_f1,mean_test_pr_auc,rank_test_f1
+Random Forest,"{'model__class_weight': 'balanced', 'model__max_depth': 20, 'model__max_features': 'sqrt', 'model__min_samples_leaf': 10}",0.693640846094422,0.1346138543166287,0.7628949127279102,1
+Random Forest,"{'model__class_weight': 'balanced', 'model__max_depth': 20, 'model__max_features': 0.5, 'model__min_samples_leaf': 10}",0.6928053904067358,0.1331652336032703,0.7622862735278684,2
+Random Forest,"{'model__class_weight': 'balanced', 'model__max_depth': 10, 'model__max_features': 'sqrt', 'model__min_samples_leaf': 3}",0.6920373143518783,0.1370110624451264,0.7512364506595411,3
+Random Forest,"{'model__class_weight': 'balanced', 'model__max_depth': 10, 'model__max_features': 0.5, 'model__min_samples_leaf': 10}",0.690700753984215,0.1326832551975992,0.7633948369789704,4
+Random Forest,"{'model__class_weight': 'balanced', 'model__max_depth': 10, 'model__max_features': 'sqrt', 'model__min_samples_leaf': 10}",0.6897165179522848,0.1345521933028318,0.7618368383326425,5
+Random Forest,"{'model__class_weight': 'balanced', 'model__max_depth': 10, 'model__max_features': 0.5, 'model__min_samples_leaf': 3}",0.6890456755433311,0.1401862218713896,0.7491615020643848,6
+Random Forest,"{'model__class_weight': 'balanced', 'model__max_depth': 20, 'model__max_features': 'sqrt', 'model__min_samples_leaf': 3}",0.6867813716044407,0.1412587755812077,0.7522734984441627,7
+Random Forest,"{'model__class_weight': 'balanced', 'model__max_depth': 20, 'model__max_features': 0.5, 'model__min_samples_leaf': 3}",0.6823697273941054,0.1427929813013355,0.7518110192283691,8
+Random Forest,"{'model__class_weight': None, 'model__max_depth': 20, 'model__max_features': 'sqrt', 'model__min_samples_leaf': 3}",0.6595025895832854,0.153340985944222,0.7606484324905792,9
+Random Forest,"{'model__class_weight': None, 'model__max_depth': 20, 'model__max_features': 0.5, 'model__min_samples_leaf': 10}",0.6585881482226402,0.151150869129256,0.7672461707993884,10
+Random Forest,"{'model__class_weight': None, 'model__max_depth': 10, 'model__max_features': 0.5, 'model__min_samples_leaf': 3}",0.6576294976692467,0.1536672116549114,0.7621241138255327,11
+Random Forest,"{'model__class_weight': None, 'model__max_depth': 10, 'model__max_features': 0.5, 'model__min_samples_leaf': 10}",0.6564390401677103,0.1539950849768664,0.7680887289841919,12
+Random Forest,"{'model__class_weight': None, 'model__max_depth': 20, 'model__max_features': 'sqrt', 'model__min_samples_leaf': 10}",0.6555711122990532,0.1569152919046847,0.7687053834572678,13
+Random Forest,"{'model__class_weight': None, 'model__max_depth': 10, 'model__max_features': 'sqrt', 'model__min_samples_leaf': 3}",0.653521644520857,0.1551112468645835,0.7639569060333291,14
+Random Forest,"{'model__class_weight': None, 'model__max_depth': 20, 'model__max_features': 0.5, 'model__min_samples_leaf': 3}",0.6532678263647081,0.160001476872167,0.7566402301517908,15
+Random Forest,"{'model__class_weight': None, 'model__max_depth': 10, 'model__max_features': 'sqrt', 'model__min_samples_leaf': 10}",0.6512847154025176,0.1598091322832087,0.769374211181436,16
+XGBoost,"{'model__learning_rate': 0.05, 'model__max_depth': 3, 'model__scale_pos_weight': 3}",0.6941138633317657,0.1440302872209311,0.7564214303717366,1
+XGBoost,"{'model__learning_rate': 0.1, 'model__max_depth': 3, 'model__scale_pos_weight': 3}",0.687859234086245,0.1437497127266582,0.7442244663656531,2
+XGBoost,"{'model__learning_rate': 0.05, 'model__max_depth': 5, 'model__scale_pos_weight': 3}",0.6873601238613466,0.1451049930253681,0.7467889411278522,3
+XGBoost,"{'model__learning_rate': 0.05, 'model__max_depth': 7, 'model__scale_pos_weight': 3}",0.6782142821210119,0.148175476467132,0.7406493943116806,4
+XGBoost,"{'model__learning_rate': 0.1, 'model__max_depth': 5, 'model__scale_pos_weight': 3}",0.6697879326800473,0.1535573725337012,0.728524032087035,5
+XGBoost,"{'model__learning_rate': 0.1, 'model__max_depth': 7, 'model__scale_pos_weight': 3}",0.6613676625278705,0.1451655218191547,0.7223701632400529,6
+XGBoost,"{'model__learning_rate': 0.05, 'model__max_depth': 3, 'model__scale_pos_weight': 1}",0.6593017542045726,0.1559974500135823,0.7568720963277089,7
+XGBoost,"{'model__learning_rate': 0.1, 'model__max_depth': 3, 'model__scale_pos_weight': 1}",0.6576118654441877,0.1533938440964062,0.7432787239751667,8
+XGBoost,"{'model__learning_rate': 0.05, 'model__max_depth': 5, 'model__scale_pos_weight': 1}",0.6481623593503366,0.1582159027040044,0.7432945971315356,9
+XGBoost,"{'model__learning_rate': 0.05, 'model__max_depth': 7, 'model__scale_pos_weight': 1}",0.6479003543961134,0.1548025233027969,0.7379983794132601,10
+XGBoost,"{'model__learning_rate': 0.1, 'model__max_depth': 5, 'model__scale_pos_weight': 1}",0.6443516325620969,0.1537027184087455,0.7292123530911493,11
+XGBoost,"{'model__learning_rate': 0.1, 'model__max_depth': 7, 'model__scale_pos_weight': 1}",0.6346041090088711,0.1512382921841014,0.7221640258028379,12
+LightGBM,"{'model__learning_rate': 0.05, 'model__num_leaves': 7, 'model__scale_pos_weight': 3}",0.6933097485481164,0.1411372820037501,0.7573979977326676,1
+LightGBM,"{'model__learning_rate': 0.05, 'model__num_leaves': 15, 'model__scale_pos_weight': 3}",0.6869923918284327,0.1443348200822794,0.7466109145247236,2
+LightGBM,"{'model__learning_rate': 0.1, 'model__num_leaves': 7, 'model__scale_pos_weight': 3}",0.68243618380563,0.1490588368111376,0.7438919718940632,3
+LightGBM,"{'model__learning_rate': 0.05, 'model__num_leaves': 31, 'model__scale_pos_weight': 3}",0.6786579991134349,0.1451524849227168,0.7403349224408345,4
+LightGBM,"{'model__learning_rate': 0.1, 'model__num_leaves': 15, 'model__scale_pos_weight': 3}",0.6777579839476559,0.1469717112226316,0.7326353856661454,5
+LightGBM,"{'model__learning_rate': 0.1, 'model__num_leaves': 31, 'model__scale_pos_weight': 3}",0.6657471951589599,0.1474890086323574,0.724981816263703,6
+LightGBM,"{'model__learning_rate': 0.05, 'model__num_leaves': 7, 'model__scale_pos_weight': 1}",0.6568943204508733,0.1580746271550868,0.7523602535502093,7
+LightGBM,"{'model__learning_rate': 0.1, 'model__num_leaves': 7, 'model__scale_pos_weight': 1}",0.6565502306190987,0.1467898214225863,0.7412566930099088,8
+LightGBM,"{'model__learning_rate': 0.05, 'model__num_leaves': 15, 'model__scale_pos_weight': 1}",0.6535924615673984,0.1571998926037713,0.7432484260497206,9
+LightGBM,"{'model__learning_rate': 0.1, 'model__num_leaves': 15, 'model__scale_pos_weight': 1}",0.6476605575476858,0.1512457416774087,0.732838234460473,10
+LightGBM,"{'model__learning_rate': 0.05, 'model__num_leaves': 31, 'model__scale_pos_weight': 1}",0.6471710002051735,0.1562934519503941,0.735775517974806,11
+LightGBM,"{'model__learning_rate': 0.1, 'model__num_leaves': 31, 'model__scale_pos_weight': 1}",0.6386508710832038,0.1485470237529532,0.7232261299673142,12
+CatBoost,"{'model__auto_class_weights': 'SqrtBalanced', 'model__depth': 4, 'model__learning_rate': 0.05}",0.6959486750497182,0.13718743470653827,0.7520009031243206,1
+CatBoost,"{'model__auto_class_weights': 'SqrtBalanced', 'model__depth': 6, 'model__learning_rate': 0.05}",0.683134349966326,0.14639736936853465,0.7463987116320047,2
+CatBoost,"{'model__auto_class_weights': 'SqrtBalanced', 'model__depth': 4, 'model__learning_rate': 0.1}",0.6819108066644675,0.1442879275577169,0.7393882656841617,3
+CatBoost,"{'model__auto_class_weights': 'Balanced', 'model__depth': 6, 'model__learning_rate': 0.05}",0.6779008716536553,0.13463456283584788,0.7410643021695561,4
+CatBoost,"{'model__auto_class_weights': 'Balanced', 'model__depth': 4, 'model__learning_rate': 0.05}",0.6733826390076155,0.13464683766978866,0.746453283460665,5
+CatBoost,"{'model__auto_class_weights': 'Balanced', 'model__depth': 6, 'model__learning_rate': 0.1}",0.672438606311727,0.14238315950727884,0.7301107501054883,6
+CatBoost,"{'model__auto_class_weights': 'Balanced', 'model__depth': 4, 'model__learning_rate': 0.1}",0.6717277129019522,0.13896428071750866,0.7340182792130233,7
+CatBoost,"{'model__auto_class_weights': 'SqrtBalanced', 'model__depth': 6, 'model__learning_rate': 0.1}",0.6713278788852511,0.15272055326858705,0.7321830605286713,8

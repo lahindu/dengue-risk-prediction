@@ -1,0 +1,12 @@
+,PR_AUC_drop
+avg4_vs_threshold,0.113
+cases_vs_threshold,0.1101
+cases_1_week_ago,0.0118
+cases_this_week,0.008
+average_last_4_weeks,0.0055
+cases_2_weeks_ago,0.0048
+week,0.0044
+change_from_last_week,0.0038
+cases_3_weeks_ago,0.0034
+month,0.0027
+district_code,-0.0003

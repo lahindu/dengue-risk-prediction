@@ -1,0 +1,11 @@
+district,week,actual,probability,result,lime_stability_jaccard,shap_top3,lime_top3,same_features_in_top3
+Kandy,2025-09-20,0,0.291,correct,0.636,"cases_vs_threshold, avg4_vs_threshold, cases_3_weeks_ago","cases_1_week_ago, cases_this_week, cases_3_weeks_ago",1
+Kalutara,2026-02-09,1,0.937,correct,0.77,"avg4_vs_threshold, cases_vs_threshold, month","avg4_vs_threshold, cases_vs_threshold, cases_this_week",2
+Badulla,2025-04-12,0,0.184,correct,0.515,"cases_vs_threshold, avg4_vs_threshold, district_code","cases_vs_threshold, month, avg4_vs_threshold",2
+Jaffna,2025-07-26,0,0.063,correct,0.608,"avg4_vs_threshold, cases_vs_threshold, week","avg4_vs_threshold, cases_vs_threshold, change_from_last_week",2
+Colombo,2025-07-19,1,0.662,correct,0.874,"avg4_vs_threshold, cases_vs_threshold, cases_3_weeks_ago","avg4_vs_threshold, cases_vs_threshold, cases_1_week_ago",2
+Matale,2026-04-20,0,0.798,wrong,0.83,"avg4_vs_threshold, cases_vs_threshold, cases_3_weeks_ago","avg4_vs_threshold, cases_3_weeks_ago, cases_vs_threshold",3
+NuwaraEliya,2025-10-25,0,0.528,wrong,0.446,"avg4_vs_threshold, cases_this_week, cases_vs_threshold","avg4_vs_threshold, cases_vs_threshold, week",2
+Hambanthota,2025-11-22,1,0.399,wrong,0.443,"cases_vs_threshold, week, month","cases_vs_threshold, district_code, week",2
+Trincomalee,2025-06-14,0,0.885,wrong,0.691,"avg4_vs_threshold, cases_vs_threshold, month","avg4_vs_threshold, month, cases_vs_threshold",3
+Batticaloa,2026-03-23,0,0.873,wrong,0.655,"avg4_vs_threshold, cases_vs_threshold, month","avg4_vs_threshold, cases_vs_threshold, cases_3_weeks_ago",2

@@ -1,0 +1,9 @@
+Model,Setting,Recall,F1,PR-AUC
+Random Forest,Default parameters,0.7,0.748,0.849
+Random Forest,My parameters,0.871,0.778,0.859
+XGBoost,Default parameters,0.698,0.74,0.827
+XGBoost,My parameters,0.892,0.77,0.847
+LightGBM,Default parameters,0.703,0.752,0.84
+LightGBM,My parameters,0.89,0.763,0.841
+CatBoost,Default parameters,0.707,0.751,0.842
+CatBoost,My parameters,0.815,0.767,0.844

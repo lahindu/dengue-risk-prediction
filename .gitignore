@@ -1,0 +1,7 @@
+# the other models are made again with: python run_all.py
+models/*.pkl
+!models/model.pkl
+__pycache__/
+.ipynb_checkpoints/
+venv/
+.DS_Store

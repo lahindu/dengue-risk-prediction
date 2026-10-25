@@ -1,0 +1,48 @@
+{
+  "model": "Stacking",
+  "colombo_probability": 0.96,
+  "shap_base_value": 0.389,
+  "shap_ranking": [
+    "avg4_vs_threshold",
+    "cases_vs_threshold",
+    "month",
+    "week",
+    "cases_3_weeks_ago",
+    "cases_this_week",
+    "cases_1_week_ago",
+    "change_from_last_week",
+    "average_last_4_weeks",
+    "district_code",
+    "cases_2_weeks_ago"
+  ],
+  "permutation_ranking": [
+    "avg4_vs_threshold",
+    "cases_vs_threshold",
+    "cases_1_week_ago",
+    "cases_this_week",
+    "average_last_4_weeks",
+    "cases_2_weeks_ago",
+    "week",
+    "change_from_last_week",
+    "cases_3_weeks_ago",
+    "month",
+    "district_code"
+  ],
+  "lime_top5_ranking": [
+    "cases_vs_threshold",
+    "avg4_vs_threshold",
+    "cases_this_week",
+    "month",
+    "change_from_last_week",
+    "cases_3_weeks_ago",
+    "week",
+    "cases_1_week_ago",
+    "average_last_4_weeks",
+    "cases_2_weeks_ago",
+    "district_code"
+  ],
+  "lime_mean_jaccard": 0.647,
+  "shap_lime_mean_overlap_top3": 2.1,
+  "median_distance_correct": 0.56,
+  "median_distance_wrong": 0.251
+}
